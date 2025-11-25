@@ -25,7 +25,7 @@ export const useInfiniteScrollVirtualization = (itemHeight, bufferSize)=>{
                 return [...prev, ...newItems];
             });
             setIsLoading(false);
-            }, 500);
+            }, 300);
         }   
         
         function updateVisiblePoints(){
@@ -50,7 +50,7 @@ export const useInfiniteScrollVirtualization = (itemHeight, bufferSize)=>{
                 }
             }, {
                 threshold:1,
-
+                root:containerRef.current
             })
             observer.observe(loaderRef.current)
             return ()=>observer.disconnect()

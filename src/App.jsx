@@ -4,6 +4,7 @@ import AppLayout from './AppLayout'
 import AutoComplete from './pages/autoComplete/AutoComplete'
 import Home from './pages/home/Home'
 import InfiniteScroll from './pages/InfiniteScroll/InfiniteScroll'
+import {PaginationComponent} from './pages/pagination/PaginationComponent'
 
 
 var appRouter = createBrowserRouter([
@@ -22,6 +23,10 @@ var appRouter = createBrowserRouter([
       {
         path:"infinite-scroll",
         element:<InfiniteScroll/>
+      },
+      {
+        path:"pagination",
+        element:<PaginationComponent/>
       }
     ]
   }
