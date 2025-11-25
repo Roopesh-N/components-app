@@ -7,6 +7,7 @@ const Header = () => {
     <header  className='header'>
         <Link to="/">Home</Link>
         <Link to="/autoComplete-typehead">AutoComplete</Link>
+        <Link to="/infinite-scroll">Infinite Scroll</Link>
     </header>
   )
 }

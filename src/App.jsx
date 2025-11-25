@@ -3,6 +3,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import AppLayout from './AppLayout'
 import AutoComplete from './pages/autoComplete/AutoComplete'
 import Home from './pages/home/Home'
+import InfiniteScroll from './pages/InfiniteScroll/InfiniteScroll'
 
 
 var appRouter = createBrowserRouter([
@@ -17,6 +18,10 @@ var appRouter = createBrowserRouter([
       {
         path:"autoComplete-typehead",
         element:<AutoComplete/>
+      },
+      {
+        path:"infinite-scroll",
+        element:<InfiniteScroll/>
       }
     ]
   }
