@@ -9,6 +9,7 @@ const Header = () => {
         <Link to="/autoComplete-typehead">AutoComplete</Link>
         <Link to="/infinite-scroll">Infinite Scroll</Link>
         <Link to="/pagination">Pagination</Link>
+        <Link to="/nestedComments">Nested Commnets</Link>
     </header>
   )
 }
