@@ -5,7 +5,7 @@ import AutoComplete from './pages/autoComplete/AutoComplete'
 import Home from './pages/home/Home'
 import InfiniteScroll from './pages/InfiniteScroll/InfiniteScroll'
 import {PaginationComponent} from './pages/pagination/PaginationComponent'
-import NestedComments from './pages/nestedComments/nestedComments'
+import NestedComments from './pages/nestedComments/NestedComments'
 
 
 var appRouter = createBrowserRouter([
